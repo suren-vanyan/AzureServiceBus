@@ -27,7 +27,7 @@ namespace SimpleBrokeredMessaging.Receiver
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter 1 to exit !!!");
+            Console.WriteLine("Enter 0 to exit !!!");
             while (!(Console.ReadKey().KeyChar == '0'))
             {
                 Console.WriteLine();
